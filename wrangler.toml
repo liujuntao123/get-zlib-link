@@ -1,0 +1,8 @@
+name = "get-zlib-link"
+compatibility_date = "2025-03-01"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = "public"
+
+# Optional: raise CPU time if Wikipedia is slow
+[vars]
+# APP_NAME = "get-zlib-link"

@@ -1,0 +1,28 @@
+{
+  "name": "get-zlib-link",
+  "version": "1.1.0",
+  "description": "Fetch Z-Library official links from Wikipedia and display them on a simple web page. Deployable to Vercel or Cloudflare Pages.",
+  "type": "module",
+  "main": "server.mjs",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "fetch": "node fetch-wiki.mjs",
+    "deploy:vercel": "vercel --prod",
+    "deploy:cloudflare": "wrangler pages deploy"
+  },
+  "keywords": [
+    "z-library",
+    "wikipedia",
+    "vercel",
+    "cloudflare-pages"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
